@@ -1,0 +1,28 @@
+{
+    "name": "edu/signatrue",
+    "description": "api signatrue",
+    "keywords": [
+        "api",
+        "auth",
+        "signatrue"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Edu\\Signatrue\\": "src"
+        },
+        "classmap": [
+            "database/seeders"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edu\\Signatrue\\SignatrueProvider"
+            ]
+        }
+    }
+}
